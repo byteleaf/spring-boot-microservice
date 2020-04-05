@@ -1,0 +1,5 @@
+type Query {
+    allProducts: [Product!]!
+    product(id: ID!): Product!
+}
+
